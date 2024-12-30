@@ -1,0 +1,84 @@
+/* Style général */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f1e1; /* Fond de page crème */
+    color: #3e3b2d; /* Texte marron foncé */
+}
+
+/* Barre de navigation */
+.navbar {
+    background-color: #6f4f37; /* Marron */
+}
+
+.navbar .navbar-brand {
+    color: #ffffff; /* Blanc pour le texte */
+}
+
+.navbar .navbar-brand:hover {
+    color: #f4f1e1; /* Couleur blanche au survol */
+}
+
+/* En-tête */
+h1 {
+    color: #6f4f37; /* Marron pour le titre */
+    font-size: 2.5rem;
+}
+
+/* Tableau */
+.table {
+    background-color: #ffffff; /* Fond blanc pour le tableau */
+    color: #3e3b2d; /* Texte marron foncé pour les lignes */
+    border-radius: 8px; /* Bords arrondis */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f0e6d2; /* Légère couleur marron clair pour les lignes impaires */
+}
+
+.table th, .table td {
+    text-align: center; /* Centrer les textes dans les cellules */
+}
+
+.table th {
+    background-color: #6f4f37; /* Marron pour l'en-tête */
+    color: #ffffff; /* Texte blanc */
+}
+
+/* Footer */
+footer {
+    background-color: #6f4f37; /* Fond marron */
+    color: #ffffff; /* Texte blanc */
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Espacement */
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.voir-capteurs {
+    display: inline-block;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.voir-capteurs:hover {
+    background-color: #0056b3;
+}

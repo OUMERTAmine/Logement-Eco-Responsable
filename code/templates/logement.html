@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logements - Logement Éco-Responsable</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/static/logement.css">
+
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Logement Éco</a>
+        </div>
+    </nav>
+
+    <!-- Section des logements -->
+    <div class="container mt-4">
+        <h1 class="text-center">Liste des Logements</h1>
+        <table class="table table-striped mt-4">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Adresse</th>
+                    <th>Téléphone</th>
+                    <th>Adresse IP</th>
+                    <th>Date d'insertion</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="logementsTable">
+                <!-- Les informations des logements seront insérées ici via JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+        <p>&copy; 2024 Logement Éco-Responsable</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="http://127.0.0.1:8000/static/js/logement.js"></script>
+</body>
+</html>
